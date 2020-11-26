@@ -215,7 +215,6 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libOmxG711Enc \
-    libplatformconfig \
     libstagefrighthw
 
 # DRM
