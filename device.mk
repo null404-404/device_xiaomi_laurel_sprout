@@ -144,6 +144,9 @@ PRODUCT_PACKAGES += \
 # Boot SPL
 BOOT_SECURITY_PATCH = $(PLATFORM_SECURITY_PATCH)
 
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/camxoverridesettings.txt:$(TARGET_COPY_OUT_VENDOR)/etc/camera/camxoverridesettings.txt
+
 # ANT
 PRODUCT_PACKAGES += \
     AntHalService \
