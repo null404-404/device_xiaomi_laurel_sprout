@@ -1,15 +1,26 @@
-# ACDB override
-persist.vendor.audio.calfile0=/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-persist.vendor.audio.calfile1=/vendor/etc/acdbdata/QRD/QRD_Codec_cal.acdb
-persist.vendor.audio.calfile2=/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-persist.vendor.audio.calfile3=/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-persist.vendor.audio.calfile4=/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-persist.vendor.audio.calfile5=/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-persist.vendor.audio.calfile6=/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-persist.vendor.audio.calfile7=/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-
 # Audio
 ro.config.vc_call_vol_steps=7
+audio.offload.disable=0
+persist.vendor.audio.fluence.voicerec=false
+vendor.audio.flac.sw.decoder.24bit=true
+vendor.audio.hw.aac.encoder=true
+vendor.audio.offload.buffer.size.kb=32
+vendor.audio.offload.gapless.enabled=true
+vendor.audio.offload.multiaac.enable=true
+vendor.audio.offload.multiple.enabled=false
+vendor.audio.offload.passthrough=false
+vendor.audio.offload.track.enable=true
+vendor.audio.parser.ip.buffer.size=262144
+vendor.audio.safx.pbe.enabled=false
+vendor.audio.tunnel.encode=false
+vendor.audio.use.sw.alac.decoder=true
+vendor.audio.use.sw.ape.decoder=true
+vendor.audio.volume.headset.gain.depcal=true
+vendor.audio_hal.in_period_size=144
+vendor.audio_hal.period_multiplier=3
+vendor.audio_hal.period_size=192
+vendor.voice.path.for.pcm.voip=true
+vendor.audio.feature.wsa.enable=false
 
 # Bluetooth
 persist.bluetooth.a2dp_offload.cap=sbc-aac-aptx-aptxhd-ldac
@@ -21,6 +32,8 @@ persist.vendor.qcom.bluetooth.enable.splita2dp=true
 persist.vendor.qcom.bluetooth.twsp_state.enabled=false
 ro.bluetooth.a2dp_offload.supported=true
 vendor.qcom.bluetooth.soc=cherokee
+debug.gralloc.enable_fb_ubwc=1
+vendor.gralloc.enable_fb_ubwc=1
 
 # Camera
 vendor.camera.aux.packagelist=org.codeaurora.snapcam,com.android.camera,com.xiaomi.cameratools,com.factory.mmigroup

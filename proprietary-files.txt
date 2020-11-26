@@ -45,20 +45,36 @@ vendor/lib/libacdb-fts.so|efeae2bdcf011c0d1a2aab750d031c2e7db776f3
 vendor/lib/libacdbloader.so|61b462d1dc181e463d77e55b7b7ecd881cc4f3fa
 vendor/lib/libacdbrtac.so|8ec92fc6859c9041760de779b3b1fe191b97cd30
 vendor/lib/libadiertac.so|189fe863303df609289f8238cd923b430165cf50
+vendor/lib/libadm.so
 vendor/lib/libaudcal.so|17e0229ce0a00cbe7618b725f88c2ea88ff452ac
+vendor/lib/libaudioalsa.so
 vendor/lib/libaudioparsers.so|d898e3d2cc8177e916052527135258c8d9fc7e89
 vendor/lib/libdrc.so|aa8e8dd2a27803bf8ac36619036e1dc736be540b
 vendor/lib/libqtigef.so|64313417bc97e9b48b45b1992b943f167475a6c6
 vendor/lib/libsurround_3mic_proc.so|b3586f20b7c852191811a51be467870f952936e3
 vendor/lib/soundfx/libasphere.so|eaa35262337a8401aaecf02997e98e24083f064c
+vendor/lib/soundfx/libmisoundfx.so
+vendor/lib/soundfx/libqcbassboost.so
+vendor/lib/soundfx/libqcompostprocbundle.so
+vendor/lib/soundfx/libqcomvisualizer.so
+vendor/lib/soundfx/libqcomvoiceprocessing.so
+vendor/lib/soundfx/libqcreverb.so
+vendor/lib/soundfx/libqcvirt.so
 vendor/lib64/libacdb-fts.so|2fb1de214681a3f3297d270d1b0162023d60075c
 vendor/lib64/libacdbloader.so|dd5b0d64d54c52481e803258d49010ce8c9f6482
 vendor/lib64/libacdbrtac.so|c93d394b7cefef7c4ce52b0e056b813db6e65c81
 vendor/lib64/libadiertac.so|da77d70e3731dfd095ddd6ea44db041389bd089d
 vendor/lib64/libaudcal.so|0a48ce68a2a2c7174d3e77566c51f8166088a760
+vendor/lib64/libaudioalsa.so
 vendor/lib64/libaudioparsers.so|415539849bf39655840b676c0fcf71643094114b
 vendor/lib64/libqtigef.so|3b0ea8646d501893f9bf67b7c78900ac8f941144
 vendor/lib64/soundfx/libasphere.so|6e5a6c00bfd01c5217b4fbc12ac72f5b6afd2b98
+vendor/lib64/soundfx/libqcbassboost.so
+vendor/lib64/soundfx/libqcompostprocbundle.so
+vendor/lib64/soundfx/libqcomvisualizer.so
+vendor/lib64/soundfx/libqcomvoiceprocessing.so
+vendor/lib64/soundfx/libqcreverb.so
+vendor/lib64/soundfx/libqcvirt.so
 
 # Audio ACDB :- Homemade
 vendor/etc/acdbdata/IDP/IDP_Bluetooth_cal.acdb|a2f072a6e1e963271ede327fca282afcc3794e8b
@@ -80,6 +96,14 @@ vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb|63c1307d7bf7c09a613cdfd561e2e143eda
 vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb|852196500eee46c66bf9ba0ff505ea655ba66909
 vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp|8550381dc6f5a89552fe9f20cff7779e5097690b
 vendor/etc/acdbdata/adsp_avs_config.acdb|0132130ff591a68a501e2e50c47a951b3b9253ea
+
+# Audio HAL
+vendor/lib/hw/audio.primary.trinket.so
+vendor/lib/libaudio_log_utils.so
+vendor/lib/libtinycompress.so
+vendor/lib64/hw/audio.primary.trinket.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libtinycompress.so
 
 # Bluetooth
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
