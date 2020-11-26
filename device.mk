@@ -257,6 +257,10 @@ PRODUCT_PACKAGES += \
     qti-telephony-utils \
     qti_telephony_utils.xml
 
+# Remove unwanted packages 
+PRODUCT_PACKAGES += \
+    RemovePackages
+
 # GPS
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0-impl-qti \
