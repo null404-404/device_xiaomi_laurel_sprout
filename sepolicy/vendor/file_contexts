@@ -15,7 +15,7 @@
 
 # HALs
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.laurel_sprout                                   u:object_r:hal_light_default_exec:s0
-/vendor/bin/hw/vendor\.pa\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_laurel_sprout         u:object_r:hal_pa_fod_default_exec:s0
+/vendor/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_laurel_sprout         u:object_r:hal_lineage_fod_default_exec:s0
 
 # IR
 /dev/spidev[0-9]\.1                                                                                             u:object_r:ir_dev_file:s0
