@@ -1,0 +1,10 @@
+allow crash_dump init:process { ptrace };
+allow crash_dump hwservicemanager_prop:file { open };
+allow crash_dump hwservicemanager_prop:file { getattr };
+allow crash_dump hwservicemanager_prop:file { map };
+allow crash_dump bluetooth_audio_hal_prop:file { open };
+allow crash_dump bluetooth_audio_hal_prop:file { getattr };
+allow crash_dump bluetooth_audio_hal_prop:file { map };
+allow crash_dump bluetooth_a2dp_offload_prop:file { open };
+allow crash_dump bluetooth_a2dp_offload_prop:file { getattr };
+allow crash_dump bluetooth_a2dp_offload_prop:file { map };

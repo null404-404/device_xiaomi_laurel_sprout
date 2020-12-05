@@ -1,0 +1,4 @@
+allow bootanim device:chr_file { ioctl };
+allow bootanim device:chr_file { map };
+allow bootanim device:chr_file { read write };
+allow bootanim device:chr_file { map };

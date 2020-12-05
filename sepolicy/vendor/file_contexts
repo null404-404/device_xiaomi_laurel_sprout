@@ -1,8 +1,8 @@
 # Fingerprint
-/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.ginkgo u:object_r:hal_fingerprint_default_exec:s0
+/vendor/bin/hw/vendor\.lineage\.biometrics\.fingerprint\.inscreen@1.0-service\.xiaomi_laurel_sprout         u:object_r:hal_lineage_fod_default_exec:s0
 
 # Light HAL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.ginkgo u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.laurel_sprout u:object_r:hal_light_default_exec:s0
 
 # Power HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.power@1\.2-service\.ginkgo u:object_r:hal_power_default_exec:s0
@@ -14,7 +14,6 @@
 /data/vendor/goodix(/.*)?    u:object_r:fingerprint_data_file:s0
 /data/vendor/fpc(/.*)?       u:object_r:fingerprint_data_file:s0
 /data/vendor/thermal(/.*)?   u:object_r:thermal_data_file:s0
-/data/vendor/mac_addr(/.*)?  u:object_r:wifi_vendor_data_file:s0
 
 # Fingerprint devices
 /dev/goodix_fp               u:object_r:fingerprint_device:s0

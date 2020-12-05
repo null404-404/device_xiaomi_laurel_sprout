@@ -1,0 +1,2 @@
+allow mediaprovider unlabeled:file { read };
+#allow mediaprovider vendor_camera_prop:file { read };

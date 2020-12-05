@@ -1,0 +1,5 @@
+allow system_app unlabeled:file { read };
+allow system_app device:chr_file { ioctl };
+allow system_app device:chr_file { map };
+allow system_app device:chr_file { read write };
+allow system_app device:chr_file { open };

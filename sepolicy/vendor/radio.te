@@ -1,0 +1,3 @@
+allow radio unlabeled:file { read };
+allow radio init:binder { transfer };
+allow radio init:binder { call };

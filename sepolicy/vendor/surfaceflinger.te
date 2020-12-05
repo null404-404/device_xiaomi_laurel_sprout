@@ -1,0 +1,4 @@
+allow surfaceflinger init:binder { call };
+allow surfaceflinger device:chr_file { ioctl };
+allow surfaceflinger device:chr_file { map };
+allow surfaceflinger device:chr_file { read write };
